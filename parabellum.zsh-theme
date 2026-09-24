@@ -9,5 +9,5 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%F{white})%f "
 ZSH_THEME_GIT_PROMPT_DIRTY=" %F{white}✗%f"
 ZSH_THEME_GIT_PROMPT_CLEAN=" %F{white}✓%f"
 
-PROMPT='${USER_COLOR}%n${RESET}${AT_COLOR}@${RESET}${HOST_COLOR}%m${RESET}:${PATH_COLOR}%1~${RESET} $(git_prompt_info)%F{white}$%f'
+PROMPT='${USER_COLOR}%n${RESET}${AT_COLOR}@${RESET}${HOST_COLOR}%m${RESET}:${PATH_COLOR}%1~${RESET} $(git_prompt_info)%F{white}$%f '
 PROMPT2='%F{#888}→ %f'
